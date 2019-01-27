@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SARL_Graph_Viewer.jnlp">
+  <information>
+    <title>SARL_Graph_Viewer</title>
+    <vendor>madhav</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SARL_Graph_Viewer.jar" size="79556" download="eager" />
+    <jar href="lib\commons-codec-1.10.jar" size="284184" download="eager" />
+    <jar href="lib\commons-collections4-4.1.jar" size="751238" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\controlsfx-8.40.9 - 1.jar" size="1016589" download="eager" />
+    <jar href="lib\controlsfx-8.40.9.jar" size="1016589" download="eager" />
+    <jar href="lib\junit-4.12.jar" size="314932" download="eager" />
+    <jar href="lib\log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\ojdbc7-12.1.0.2.jar" size="3700718" download="eager" />
+    <jar href="lib\poi-3.17.jar" size="2701171" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SARL_Graph_Viewer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="sarl_graph_viewer.SARL_Graph_Viewer"  name="SARL_Graph_Viewer" />
+  <update check="always"/>
+</jnlp>
